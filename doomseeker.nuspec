@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>doomseeker</id>
+    <version>1.2.0</version>
+    <title>doomseeker (Install)</title>
+    <authors>Blzut3 Zalewa</authors>
+    <projectUrl>https://doomseeker.drdteam.org/</projectUrl>
+    <iconUrl>https://bitbucket.org/Doomseeker/doomseeker/raw/be1bafc147cf820291a6414bf4ec6143c25d7dc1/media/icon_small.png</iconUrl>
+    <licenseUrl>https://bitbucket.org/Doomseeker/doomseeker/src/default/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://bitbucket.org/Doomseeker/doomseeker/src/default/</projectSourceUrl>
+    <docsUrl>https://doomseeker.drdteam.org/docs/doomseeker_1.2/</docsUrl>
+    <mailingListUrl>https://bitbucket.org/Doomseeker/doomseeker/src/default/README.md</mailingListUrl>
+    <bugTrackerUrl>https://zandronum.com/tracker/view_all_bug_page.php</bugTrackerUrl>
+    <tags>doomseeker doom gamefinder</tags>
+    <summary>A Universal [Doom game] Browser</summary>
+    <description>
+    Doomseeker is a cross-platform server browser for Doom. The goal of Doomseeker is to provide a smooth, consistant experience for Doom players regardless of port or platform. Doomseeker provides support for Chocolate Doom, Odamex, Sonic Robo Blast 2, Turok 2 Remaster, and Zandronum. With its plugin system support for even more can be added.
+    </description>
+    <releaseNotes>https://bitbucket.org/Doomseeker/doomseeker/src/default/CHANGELOG.md</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
