@@ -2,11 +2,11 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>doomseeker</id>
-    <version>1.2.0</version>
+    <version>1.2.1</version>
     <title>doomseeker (Install)</title>
     <authors>Blzut3 Zalewa</authors>
     <projectUrl>https://doomseeker.drdteam.org/</projectUrl>
-    <iconUrl>https://bitbucket.org/Doomseeker/doomseeker/raw/be1bafc147cf820291a6414bf4ec6143c25d7dc1/media/icon_small.png</iconUrl>
+    <iconUrl>https://cdn.statically.io/bb/Doomseeker/doomseeker/default/media/icon_small.png</iconUrl>
     <licenseUrl>https://bitbucket.org/Doomseeker/doomseeker/src/default/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://bitbucket.org/Doomseeker/doomseeker/src/default/</projectSourceUrl>
