@@ -2,22 +2,23 @@
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 . "$toolsDir\commonEnv.ps1"
 
+$url = 'http://doomseeker.drdteam.org/files/doomseeker-1.3_windows.zip'
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $installLocation
-  url           = 'https://doomseeker.drdteam.org/files/doomseeker-1.2_windows.zip'
-  softwareName  = 'doomseeker*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
-  checksum      = '461066E4F3AB85A5B0CBED442201B877'
-  checksumType  = 'md5' #default is md5, can also be sha1, sha256 or sha512
+  url           = $url
+  softwareName  = 'doomseeker*'
+  checksum      = '9A4134CE843DDBB05BD69D1B9DA7EDEB49935275DDAB5DC38B35C80C3DEFE327'
+  checksumType  = 'sha256'
 }
-Install-ChocolateyZipPackage @packageArgs # https://chocolatey.org/docs/helpers-install-chocolatey-zip-package
+Install-ChocolateyZipPackage @packageArgs
 
 Install-ChocolateyShortcut -ShortcutFilePath "$startMenuLocation\Doomseeker.lnk" `
   -TargetPath "$installLocation\Doomseeker.exe" `
   -IconLocation "$installLocation\Doomseeker.exe" `
   -WorkingDirectory "$installLocation"
 
-Install-ChocolateyShortcut -ShortcutFilePath "$shortcutPath" `
-  -TargetPath "$installLocation\Doomseeker.exe" `
-  -IconLocation "$installLocation\Doomseeker.exe" `
-  -WorkingDirectory "$installLocation"
+# Install-ChocolateyShortcut -ShortcutFilePath "$shortcutPath" `
+#   -TargetPath "$installLocation\Doomseeker.exe" `
+#   -IconLocation "$installLocation\Doomseeker.exe" `
+#   -WorkingDirectory "$installLocation"
