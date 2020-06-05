@@ -7,18 +7,11 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $installLocation
   url           = $url
-  softwareName  = 'doomseeker*'
   checksum      = '9A4134CE843DDBB05BD69D1B9DA7EDEB49935275DDAB5DC38B35C80C3DEFE327'
   checksumType  = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
 
-Install-ChocolateyShortcut -ShortcutFilePath "$startMenuLocation\Doomseeker.lnk" `
-  -TargetPath "$installLocation\Doomseeker.exe" `
-  -IconLocation "$installLocation\Doomseeker.exe" `
+Install-ChocolateyShortcut "$(Join-Path $startMenuLocation 'Doomseeker.lnk')" `
+  -TargetPath "$(Join-Path $installLocation 'Doomseeker.exe')" `
   -WorkingDirectory "$installLocation"
-
-# Install-ChocolateyShortcut -ShortcutFilePath "$shortcutPath" `
-#   -TargetPath "$installLocation\Doomseeker.exe" `
-#   -IconLocation "$installLocation\Doomseeker.exe" `
-#   -WorkingDirectory "$installLocation"
