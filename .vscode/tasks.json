@@ -32,9 +32,9 @@
 			"command": "del /s /q *.nupkg",
 		},
 		{
-			"label": "package update",
+			"label": "auto-update",
 			"type": "shell",
-			"command": "./update.ps1",
+			"command": "$ENV:TEMP = 'T:\\Temp'; ./update.ps1",
 			"options": {"shell": {"executable": "powershell.exe"}}
 		}
 	]
