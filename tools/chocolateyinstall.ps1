@@ -11,6 +11,6 @@ $packageArgs = @{
 }
 Install-ChocolateyZipPackage @packageArgs
 
-Install-ChocolateyShortcut "$(Join-Path $startMenuLocation 'Doomseeker.lnk')" `
-  -TargetPath "$(Join-Path $installLocation 'Doomseeker.exe')" `
+Install-ChocolateyShortcut "$(Join-Path $startMenuLocation $appName).lnk" `
+  -TargetPath "$(Join-Path $installLocation $appName).exe" `
   -WorkingDirectory "$installLocation"
