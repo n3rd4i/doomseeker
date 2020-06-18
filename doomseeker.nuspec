@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>doomseeker</id>
-    <version>1.3.0</version>
+    <version>1.3.1</version>
     <packageSourceUrl>https://github.com/n3rd4i/doomseeker</packageSourceUrl>
     <owners>n3rd4i</owners>
     <title>Doomseeker</title>
@@ -19,8 +19,6 @@
     <summary>A Universal [Doom game] Browser</summary>
     <description>
 
-=====
-
 Doomseeker is a cross-platform server browser for Doom.
 
 The goal of Doomseeker is to provide a smooth, consistant experience for Doom players regardless of port or platform.
@@ -28,8 +26,6 @@ The goal of Doomseeker is to provide a smooth, consistant experience for Doom pl
 Doomseeker provides support for Chocolate Doom, Odamex, Sonic Robo Blast 2, Turok 2 Remaster, and Zandronum.
 
 With its plugin system support for even more can be added.
-
-=====
 
     </description>
     <releaseNotes>https://bitbucket.org/Doomseeker/doomseeker/src/default/CHANGELOG.md</releaseNotes>
