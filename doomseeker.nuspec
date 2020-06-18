@@ -9,11 +9,11 @@
     <authors>Blzut3 Zalewa</authors>
     <projectUrl>https://doomseeker.drdteam.org/</projectUrl>
     <iconUrl>https://cdn.statically.io/img/doomseeker.drdteam.org/images/logo.png</iconUrl>
-    <licenseUrl>https://bitbucket.org/Doomseeker/doomseeker/src/default/LICENSE</licenseUrl>
+    <licenseUrl>https://bitbucket.org/Doomseeker/doomseeker/src/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>https://bitbucket.org/Doomseeker/doomseeker/src/default/</projectSourceUrl>
+    <projectSourceUrl>https://bitbucket.org/Doomseeker/doomseeker/src/master/</projectSourceUrl>
     <docsUrl>https://doomseeker.drdteam.org/docs.php</docsUrl>
-    <mailingListUrl>https://bitbucket.org/Doomseeker/doomseeker/src/default/README.md</mailingListUrl>
+    <mailingListUrl>https://bitbucket.org/Doomseeker/doomseeker/src/master/README.md</mailingListUrl>
     <bugTrackerUrl>https://zandronum.com/tracker/view_all_bug_page.php</bugTrackerUrl>
     <tags>doomseeker doom gamefinder</tags>
     <summary>A Universal [Doom game] Browser</summary>
@@ -28,7 +28,7 @@ Doomseeker provides support for Chocolate Doom, Odamex, Sonic Robo Blast 2, Turo
 With its plugin system support for even more can be added.
 
     </description>
-    <releaseNotes>https://bitbucket.org/Doomseeker/doomseeker/src/default/CHANGELOG.md</releaseNotes>
+    <releaseNotes>https://bitbucket.org/Doomseeker/doomseeker/src/master/CHANGELOG.md</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
