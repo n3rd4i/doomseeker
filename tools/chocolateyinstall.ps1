@@ -5,8 +5,8 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $installLocation
-  url           = 'http://doomseeker.drdteam.org/files/doomseeker-1.3.1_windows.zip'
-  checksum      = '833496437c06b5ff6a8c8f423e5e48754fed70c1742ed7b042ff6305f6237699'
+  url           = 'http://doomseeker.drdteam.org/files/doomseeker-1.3.2_windows.zip'
+  checksum      = 'b4f2feb451424129d5fe38d10a8509948dcb91f00be7861da83e413496cdb2ed'
   checksumType  = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
